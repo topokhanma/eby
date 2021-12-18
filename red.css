@@ -1,0 +1,1101 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500,700|Oswald:400,700);
+
+h1, h2, h3 { 
+
+}
+
+h2 { 
+
+}
+
+h3 { 
+
+}
+
+h4, h5, h6 { 
+
+}
+
+a, a:hover, a:visited {
+  text-decoration: none;
+  color: #FFF;
+}
+
+a:hover { 
+  text-decoration: none;
+}
+
+blockquote { 
+
+}
+
+ul { 
+
+}
+
+ul li { 
+  list-style-type: none;
+}
+
+ol { 
+
+}
+
+font{
+	font-size:1em !important
+}
+
+/* ######## ######## ######## */
+
+
+
+/* ######## BODY ######## */
+
+body {
+	margin: 0;
+	background: #EEEEEE;
+    font: normal 100% 'Ubuntu', sans-serif;
+    color: #000;
+}
+
+.sCont{
+	width: 95%;
+    margin-left: auto;
+}
+
+.bg-w{
+	padding: 10px;
+	background-color: #FFF;
+}
+
+.bg-w h1{
+	margin: 0 0 15px;
+	padding: 0 0 10px;
+	border-bottom: 1px solid #8C8C8C;
+	font: bold 2em 'Oswald', sans-serif;
+	line-height: 42px;
+	color: #444;
+}
+
+/* ######## ######## ######## */
+
+
+
+/* ######## HEADER ######## */
+
+header {
+    width: 100%;
+    margin: 0;
+    clear: both;
+    background: #fff;
+}
+
+header .logo{
+	margin: 0px;
+	padding: 30px 0;
+}
+
+header .logo .mTitle{
+	padding: 0 0 10px;
+	font: bold 1.8em 'Oswald', sans-serif;
+	line-height: 60px;
+	color: #e74c3c;
+}
+
+header .logo .sTitle{
+	padding: 0;
+	font: 400 1.2em 'Ubuntu', sans-serif;
+	line-height: 30px;
+	color: #666;
+}
+
+/* ######## ######## ######## */
+
+
+
+/* ######## NAV ######## */
+
+nav {
+	margin: 0;
+	background-color: #e74c3c;
+	color: #FFF;
+}
+
+nav ul{
+	width: 100%;
+	margin: 0 auto;
+	padding: 5px 0 15px;
+	font: bold 1em 'Ubuntu', sans-serif;
+}
+
+nav ul li{
+	display: inline-block;
+	width: 40%;
+	margin: 0.5% 4.5%;
+	padding: 0;
+	text-align: center;
+}
+
+nav ul li a{
+	display: block;
+	padding: 15px 0;
+	border-bottom:  1px solid #b21707;
+	font: 400 0.9em 'Oswald';
+	text-transform: uppercase;
+	color: #FFF;
+}
+
+nav ul li a i{
+    padding-right: 10px;
+}
+
+nav ul li a .fa{
+	font-size: 1.2em;
+}
+
+nav ul li:first-of-type{
+}
+
+nav ul li a:hover, nav ul li a:active{
+	padding: 14px 0;
+	background-color: #d23727;
+	border: 1px solid #b21707;
+	border-radius: 3px;
+	text-decoration: none;
+	color: #FFF;
+}
+
+/* ######## ######## ######## */
+
+
+
+/* ######## TITLE CONTENT ######## */
+
+.lTitle h1{
+    margin: 30px 0 25px;
+    padding: 0;
+    font: 500 1.7em 'Oswald', sans-serif;
+    color: #444;
+}
+
+/* ######## ######## ######## */
+
+
+
+/* ######## LEFT SECTION ######## */
+
+.l-col{
+    display: block;
+    width: 95%;
+    height: auto;
+    margin: 0 0 2% 0;
+    background-color: #FFF;
+    border-bottom: 2px solid #bbb;
+    border-radius: 0 0 3px 3px;
+}
+
+.l-col h1{
+	margin: 0 0 15px;
+	padding: 0 0 10px;
+	border-bottom: 1px solid #8C8C8C;
+	font: bold 2em 'Oswald', sans-serif;
+	line-height: 42px;
+	color: #e74c3c;
+}
+
+.l-col .list-img{
+    margin: auto 0;
+    text-align: center;
+}
+
+.l-col .list-img img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+/* ######## ######## ######## */
+
+
+
+/* ######## RIGHT COLUMN ######## */
+
+.r-col{
+	display: block;
+	width: 95%;
+    padding: 0;
+    margin: 1% 0 0;
+    background-color: #FFF;
+    border-bottom: 2px solid #bbb;
+    border-radius: 0 0 3px 3px;
+}
+
+.r-col h1{
+	margin: 0 0 15px;
+	padding: 0 0 10px;
+	border-bottom: 1px solid #8C8C8C;
+	font: bold 2em 'Oswald', sans-serif;
+	line-height: 42px;
+	color: #e74c3c;
+}
+
+.r-col .bt{
+	padding: 10px;
+	border-bottom: 2px solid #EEE;
+}
+
+.r-col .pr-price{
+	margin: 5px 0 10px;
+	padding: 7px 0;
+	border-bottom: 1px solid #eee;
+	border-top: 1px solid #eee;
+	text-align: center;
+	line-height: 1.4;
+	font-family: 'Oswald';
+	font-size: 1.4em;
+}
+
+.r-col .pr-price .text{
+	display: inline-block;
+	font: 600 1em 'Oswald';
+	padding-right: 5px;
+	color: #444;
+}
+
+.r-col .pr-price .price{
+	display: inline-block;
+	font-size: 1.1em;
+	font-weight: 600;
+	color: #e74c3c;
+}
+
+.r-col .bt .btEbay{
+	text-align: center;
+}
+
+.r-col .bt .btEbay a{
+	display: block;
+	padding: 13px 10px;
+	margin: 0 0 10px;
+	background-color: #e74c3c;
+	font: 500 1.1em 'Oswald';
+	border-radius: 3px;    
+    color: #FFF;
+}
+
+.r-col .bt .btEbay a i{
+	display: none;
+}
+
+.r-col .bt .btEbay a:hover{
+	background-color: #d23727;
+	text-decoration: none;	
+}
+
+.r-col .bt .btEbay i{
+	padding-left:5px;
+}
+
+.r-col .bt .sbt{
+	width: 100%;
+}
+
+.r-col .bt .sbtEbay{
+	display: inline-block;
+	width: 48%;
+	margin: 0 1.2% 0 0;
+	text-align: center;
+}
+
+.r-col .bt .sbt a{
+    display: inline-block;
+    width: 42.2%;
+    padding: 13px 3%;
+    background-color: #666;
+    font: 400 0.8em 'Oswald';
+    text-align: center;
+    border-radius: 3px;
+    color: #FFF;
+}
+
+.r-col .bt .sbt a:hover{
+	background-color: #555;
+	text-decoration: none;
+}
+
+.r-col .bt .sbt i{
+	padding-left: 3px;
+	display: none;
+}
+
+.r-col .ourBest{
+	padding: 10px;
+	text-align: center;
+}
+
+.r-col .ourBest .oBTrump{
+	display: block;
+    width: auto;
+    margin: 5px 0;
+    padding: 8px 10px;
+    border-bottom: 2px solid #EEE;
+    text-align: center;
+}
+
+.r-col .ourBest .oBTrump .oBTCircle{
+	height: 90px;
+	width: 90px;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+    background-color: #e74c3c;
+}
+
+.r-col .ourBest .oBTrump .oBTCircle img{
+    width: 50px;
+	margin: 22px 0 0;
+}
+
+.r-col .ourBest .oBTrump h4{
+    margin: 0;
+    padding: 10px 0;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #e74c3c;
+}
+
+.r-col .ourBest .oBTrump .oBTDesc{
+	line-height: 1.4;
+	font-size: 0.9em;
+	font-weight: 400;
+	color: #666;
+}
+
+/* ######## ######## ######## */
+
+
+
+/* ######## ITEM DESCRIPTION ######## */
+
+.desc-fw{
+	width: 95%;
+	margin: 2% 0;
+}
+
+.desc-fw-title{
+	padding: 15px 0 15px 30px;
+	background-color: #e74c3c;
+	border-radius: 3px 3px 0 0;
+}
+
+.desc-fw-title h1{
+	margin: 0;
+	padding: 0;
+	font: 400 1.05em 'Oswald', sans-serif;
+	color: #FFF;
+}
+
+.desc-fw-cont{
+    padding: 4%;
+    background-color: #FFF;
+    border-bottom: 2px solid #bbb;
+    border-radius: 0 0 3px 3px;
+}
+
+.desc-fw-cont h2{
+	margin: 15px 0;
+	font: 600 2em 'Ubuntu';
+    color: #e74c3c;
+}
+
+.desc-fw-cont h3{
+	margin: 15px 0;
+	font: 600 1.5em 'Ubuntu';
+    color: #e74c3c;
+    text-align: center;
+}
+
+.desc-fw-cont h4{
+	margin: 12px 0;
+	font: 500 1.1em 'Ubuntu';
+    line-height: 24px;
+    color: #e74c3c;
+}
+
+.desc-fw-cont img{
+	max-width: 100%;
+}
+
+.desc-fw-cont p{
+	margin: 0;
+	padding: 0;
+	font: 400 1em 'Ubuntu' !important;
+	line-height: 1.4 !important;
+	color: #666;
+}
+
+.desc-fw-cont ul{
+	margin: 0;
+    padding-left: 25px;
+}
+
+.desc-fw-cont ol{
+	margin: 0;
+    padding-left: 25px;
+}
+
+.desc-fw-cont ul li{
+    margin: 0;
+    padding: 0;
+    font: 400 1em 'Ubuntu';
+    line-height: 30px;
+    color: #e74c3c;
+    list-style-type: disc;
+}
+
+.desc-fw-cont ol li{
+    margin: 0;
+    padding: 0;
+    font: 400 1em 'Ubuntu';
+    line-height: 30px;
+    color: #e74c3c;
+}
+
+.desc-fw-cont .button{
+	text-align: center;
+	margin: 10px 0;
+}
+
+.desc-fw-cont .button a{
+	background: #e74c3c;
+	display: block;
+	margin: 0 auto;
+	max-width: 200px;
+	padding: 12px 0;
+	border-radius: 3px;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	font-weight: 500;
+	font-family: 'Oswald', sans-serif;
+}
+
+.desc-fw-cont .button a:hover{
+	border: 1px solid #b21707;
+	padding: 11px 0;
+	max-width: 198px;
+}
+
+
+/* ######## ######## ######## */
+
+
+
+/* ######## FOOTER ######## */
+
+footer { 
+	clear: both;
+	margin: 0;
+	background: #444;
+    text-align: center;    
+    color: #FFF;
+}
+
+footer .fBg{
+	height: 30px;
+	background: #8C8C8C;
+}
+
+footer .footer{
+	max-width: 95%;
+    margin: 0 auto;
+	padding: 10px 0 30px;
+}
+
+footer .footer ul{
+	margin: 0 auto;
+    padding: 0;
+}
+
+footer .footer .fCol3{
+	display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+footer .footer .fCol4{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 2%;
+}
+
+footer .footer .fcTitle{
+	padding: 0 10%;
+}
+
+footer .footer .fcTitle h3{
+	margin: 10% 0 5%;
+	padding: 0 0 10px;
+	border-bottom: 2px solid;
+	font-size: 1.6em;
+	color: #e74c3c;
+}
+
+footer .footer .fcLinks{
+	width: 80%;
+	margin: 0 10%;
+	padding: 15px 0 16px;
+    border-bottom: 1px solid #666;
+}
+
+footer .footer .fcLinks ul li{
+    padding: 8px 0;
+}
+
+footer .footer .fcLinks ul li a{
+    font-size: 1em;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+footer .footer .fcLinks ul li i{
+    margin-right: 8px;
+    color: #e74c3c;
+}
+
+footer .footer .fcLinks ul li a:hover{
+	color: #d23727;
+	text-decoration: none;
+}
+
+footer .footer .fcWhyUs ul li{
+	display: block;
+	width: 80%;
+	margin: 0 5%;
+	padding: 20px 5%;
+	border-bottom: 1px solid #666;
+	font-family: 'Oswald';
+	font-size: 1em;
+	text-align: center;
+}
+
+footer .footer .fcWhyUs ul li span{
+	display: inline;
+	margin:0;
+	padding: 0 0 0 10px;
+	font-size: 1.1em;
+}
+
+footer .footer .fcWhyUs ul li:before{
+	font-family: FontAwesome;
+	content: "\f046";
+	padding: 8px 10px 0 0;
+	vertical-align: sub;
+	font-size: 1.8em;
+	color: #e74c3c;
+}
+
+footer .footer .fcContact ul li{
+	width: 80%;
+	margin: 0 10%;
+    padding: 15px 0 0;
+    font-size: 1em;
+}
+
+footer .footer .fcContact ul li ol{
+    margin: 0;
+    padding: 15px 0;
+    border-bottom: 1px solid #666;
+    font: 500 1em 'Oswald';
+    color: #e74c3c;
+    text-transform: uppercase;
+}
+
+footer .footer .fcContact ul li ol a{
+	color: #e74c3c;
+}
+
+
+footer .footer .fcContact ul li ol a:hover{
+	color: #b21707;
+}
+
+
+
+footer .footer .fcContact .fccImg{
+	float: left;
+    width: 100px;
+    height: 130px;
+    margin-left: 38px;
+    background-color: #666;
+    border-radius: 3px;
+}
+
+footer p { 
+  line-height: 1.7em;
+  color: #FFF;
+}
+
+footer a { 
+  text-decoration: none;
+  color: #FFF;  
+}
+
+footer a:hover { 
+  text-decoration: underline;
+  color: #FFF; 
+}
+
+
+#author{
+	padding: 10px 0;
+	text-align: center;
+	font: 400 0.8em 'Ubuntu';
+	background-color: #555;
+}
+
+#author span{
+	color: #8c8c8c;
+}
+
+#author span a:hover{
+	text-decoration: underline;
+}
+
+#author #mAuthor{
+	padding-right: 40px;
+}
+
+#author #mAuthor a{
+	padding-left: 5px;
+	color: #e74c3c;
+	font: 500 1em 'Oswald';
+}
+
+#author #mAuthor a:hover{
+	color: #b21707;
+}
+
+#author #sAut{
+	padding-right: 10px;
+}
+
+#author #sAut a{
+	color: #ABABAB;
+}
+
+/* ######## ######## ######## */
+
+
+
+/* ######## ######## RESPONSIVE ######## ######## */
+
+
+
+/* ######## MOBILE ######## */
+
+@media only screen and (min-device-width: 320px) and (min-width: 320px) {
+
+.r-col .bt .sbt a{
+	width: 42.815%;
+}
+
+#author #mAuthor{
+	display: block;
+    padding: 0 0 7px;
+}
+
+#author #sAut{
+	font-size: 0.85em;
+	padding-right: 5px;
+}
+
+}
+
+
+/* ######## MOBILE WIDE ######## */
+
+@media only screen and (min-device-width: 480px) and (min-width: 480px) {
+
+nav ul li a{
+	font-size: 1.1em;
+}
+
+.lTitle h1{
+}
+
+.r-col .bt .btEbay a i{
+	display: inline-block;
+}
+
+.r-col .bt .sbt a{
+    width: 43.09%;
+}
+
+.r-col .bt .sbt i{
+	display: inline-block;
+}
+
+.r-col .ourBest .oBTrump h4{font-size: 1em;}
+
+.r-col .ourBest .oBTrump .oBTDesc{
+}
+
+footer .footer .fcWhyUs ul li{
+}
+
+footer .footer .fcWhyUs ul i {
+	font-size: 2.2em;
+}
+
+footer .footer .fcContact ul li{
+	font-size: 1em;
+}
+
+footer .footer .fcContact ul li ol{
+}
+
+#author{
+	font-size: 0.9em;
+}
+
+}
+
+/* ######## ######## ######## */
+
+
+
+/* ######## TABLET ######## */
+
+@media only screen and (min-device-width : 768px) and (min-width: 768px) {
+
+nav ul li a{}
+
+.r-col .pr-price{
+}
+
+.r-col .pr-price .text{
+	font: 600 1.4em 'Oswald';
+}
+
+.r-col .pr-price .price{
+	font-size: 1.4em;
+}
+
+.r-col .bt .btEbay a{
+	font-size: 1em;
+}
+
+.r-col .bt .sbt a{
+    width: 42.68%;
+    font-size: 1.2em;
+}
+
+.r-col .ourBest .oBTrump .oBTCircle{
+	width: 75px;
+	height: 75px;
+}
+
+.r-col .ourBest .oBTrump .oBTCircle img{
+    width: 40px;
+    margin: 18px 0 0;
+}
+
+.r-col .ourBest .oBTrump h4{
+	padding: 8px 0 9px;
+	font-size: 0.9em;
+}
+
+.r-col .ourBest .oBTrump .oBTDesc{
+	font-size: 0.8em;
+	line-height: 22px;
+}
+
+.desc-fw{
+	width: 95%;
+	margin:2% 0;
+}
+
+.desc-fw-cont{
+	padding: 3%;
+}
+
+.desc-fw-cont p{
+	font: 400 0.9em 'Ubuntu' !important;
+	line-height: 1.8 !important;
+}
+
+.desc-fw-cont h4{
+	font-size: 1.1em;
+}
+
+footer .footer .fCol3{
+	width: 24%;
+	padding: 0% 2% 2%;
+    display: inline-block;
+    vertical-align: top;
+    border-left: 1px solid #666;
+    border-right: 1px solid #666;
+}
+
+footer .footer .fCol4{
+	display: inline-block;
+    width: 32%;
+    padding: 0% 3% 2%;
+    vertical-align: top;
+}
+
+footer .footer .fcTitle h3{
+	margin: 20px 0 10px;
+	font-size: 1.7em;
+
+}
+
+footer .footer .fcLinks{
+	padding: 20px 0 20px;
+}
+
+footer .footer .fcWhyUs{
+	padding: 15px 0;
+}
+
+footer .footer .fcLinks ul li{
+    padding: 5px 0;
+}
+
+footer .footer .fcLinks ul li a{
+	font-size: 1em;
+}
+
+footer .footer .fcWhyUs ul li{
+	margin: 0 auto;
+	width: 70%;
+	padding: 10px 19px;
+	vertical-align: top;
+	line-height: 35px;
+	text-align: left;
+	font-size: 1.1em;
+}
+
+
+footer .footer .fcWhyUs ul li:before{
+	font-family: FontAwesome;
+	content: "\f046";
+	margin-left: 5%;
+    padding: 8px 15px 0 0;
+    vertical-align: sub;
+    font-size: 1.8em;
+}
+    
+
+footer .footer .fcContact ul li{
+	width: auto;
+	margin: 0;
+	padding: 11px 15px 0;
+	font-size: 0.9em;
+}
+
+footer .footer .fcContact ul li ol{
+	padding: 5px 0 3px;
+	font-size: 1.05em;
+}
+
+#author #mAuthor{
+	display: inline;
+    padding: 0 30px 0 0;
+}
+
+#author #sAut{
+	font-size: 0.9em;
+	padding-left: 10px;
+}
+
+}
+
+/* ######## ######## ######## */
+
+
+
+/* ######## PC & TABLET WIDE ######## */
+
+@media only screen  and (min-device-width: 992px) and (min-width: 992px){
+
+header .logo{
+	padding: 20px 0;
+}
+
+header .logo .mTitle{
+	font: bold 3em 'Oswald', sans-serif;
+	line-height: 60px;
+}
+
+.lTitle h1{
+	margin: 15px 0;
+	font-size: 1.9em;
+}
+
+.sCont{
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+nav ul{
+	max-width: 960px;
+	padding: 15px 0;
+}
+
+nav ul li{
+	display: inline-block;
+	width: 24.5%;
+	margin: 0;
+}
+
+nav ul li:first-of-type{
+	border-top: 0;
+}
+
+nav ul li a{
+	display: inline;
+    padding: 8px 20px;
+    border: 0;
+    font-size: 1em;
+}
+
+nav ul li a i{
+    padding-right: 8px;
+}
+
+nav ul li a:hover, nav ul li a:active{
+    padding: 7px 19px;
+    border-top: 1px solid #b21707;
+}
+
+
+.l-col{
+    width: 60%;
+    padding: 25px 10px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.r-col{
+	display: inline-block;
+	width: 35%;
+	margin: 0 0 0 2%;
+	vertical-align: top;
+}
+
+.r-col .pr-price{
+	font-size:1em;
+}
+
+.r-col .pr-price .text{
+	font: 600 1.3em 'Oswald';
+}
+
+.r-col .pr-price .price{
+	font-size: 1.3em;
+}
+
+.r-col .bt .btEbay a{
+	font-size: 1em;
+	padding: 11px 10px;
+}
+
+.r-col .bt .btEbay a:hover{
+	
+}
+
+.r-col .bt .sbt a{
+    width: 42.919%;
+    padding: 11px 3%;
+    font-size: 0.9em;
+}
+
+.r-col .ourBest .oBTrump{
+    padding: 8px 10px;
+}
+
+.r-col .ourBest .oBTrump .oBTCircle{
+	height: 74px;
+	width: 74px;
+	margin: 0 auto;
+}
+
+.r-col .ourBest .oBTrump .oBTCircle img{
+	width: 40px;
+    margin: 18px 0 0;
+}
+
+.r-col .ourBest .oBTrump h4{
+	padding: 9px 0;
+	font-size: 1em;
+}
+
+.r-col .ourBest .oBTrump .oBTDesc{
+    font-size: 0.9em;
+    line-height: 1.2;
+}
+
+.desc-fw{
+	width: 100%;
+}
+
+.desc-fw-title{
+	padding: 10px 0 10px 30px;
+}
+
+.desc-fw-title h1{
+	font-size: 1.2em;
+}
+
+.desc-fw-cont{
+	padding: 25px 15px 25px 30px;
+}
+
+.desc-fw-cont h4{
+	font-size: 1.1em;
+}
+
+.desc-fw-cont p{
+    font-size: 1em;
+}
+
+.desc-fw-cont h3{
+	text-align: left;
+}
+
+footer .footer{
+	max-width: 960px;
+}
+
+footer .footer .fcLinks{
+	padding: 30px 0 20px;
+}
+
+footer .footer .fcLinks ul li a{
+	font-size: 1.1em;
+}
+
+footer .footer .fcWhyUs ul li{
+    font-size: 1em;
+    padding: 11px 19px;
+}
+
+footer .footer .fcWhyUs ul i{
+	margin-left: 5%;
+	padding: 8px 15px 0 0;
+	vertical-align: sub;
+	font-size: 1.8em;
+}
+
+footer .footer .fcContact ul li ol{
+    padding: 6px 0;
+    font-size: 1.15em;
+}
+
+}
+
+/* ######## ######## ######## */
+
+ 
